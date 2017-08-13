@@ -3,6 +3,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/coolpad/note3/device.mk)
 
@@ -10,7 +13,7 @@ $(call inherit-product, device/coolpad/note3/device.mk)
 PRODUCT_RELEASE_NAME := Note3
 
 PRODUCT_DEVICE := note3
-PRODUCT_NAME := full_note3
+PRODUCT_NAME := lineage_note3
 PRODUCT_BRAND := Coolpad
 PRODUCT_MODEL := Note3
 PRODUCT_MANUFACTURER := Coolpad
