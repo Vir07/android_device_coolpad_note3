@@ -5,6 +5,6 @@
 <p>Tring To Make It Working For Both AOSP & Lineage  :)<p>
 
 
-Credits :
-<small>Team M.A.D MediatekAndroidDevelopers</small>
+<mark>Credits :</mark><br>
+Team M.A.D MediatekAndroidDevelopers
 
