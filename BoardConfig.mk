@@ -1,8 +1,6 @@
 # mt6753 platform boardconfig
 LOCAL_PATH := device/coolpad/note3
 
-include vendor/mad/config/board.mk
-
 # Platform
 ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_BOARD_PLATFORM := mt6753
@@ -61,7 +59,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_INCLUDE_XLOG_SYMBOLS := true
 TARGET_INCLUDE_AUDIO_SYMBOLS := true
 TARGET_INCLUDE_GPS_SYMBOLS := true
-include vendor/mad/config/symbols.mk
 
 #audio
 TARGET_HAS_PRE_N_AUDIO := true
