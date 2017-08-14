@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp.mk
+    $(LOCAL_DIR)/lineage_note3.mk
